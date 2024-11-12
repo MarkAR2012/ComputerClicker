@@ -1,7 +1,7 @@
 Let's make a game!
   name:Computer Clicker
   version:ALPHA1
-  building cost increase:25%
+  building cost increase:125%
   building cost refund:100%
 Resources
   *Money
