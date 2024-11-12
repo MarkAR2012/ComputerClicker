@@ -1,0 +1,43 @@
+Let's make a game!
+  name:Computer Clicker
+  version:ALPHA1
+  building cost increase:25%
+  building cost refund:100%
+Resources
+  *Money
+    name:Money
+    desc:Money, what do you except?
+  *Bitcoin
+    name:Bitcoin
+    desc:Crypto
+    req:1000 Money
+Buildings
+  *IBMPC
+    name:IBM PC
+    desc:First personal computer
+    cost:25 Money
+    icon:https://miro.medium.com/v2/resize:fit:1200/1*bNLAr1vdxXiMbZWMQO3xDQ.jpeg
+    on tick:yield 0.1 Money
+  *COMPAQ386
+    name:COMPAQ DeskPro 386
+    desc:Bit newer than the first personal computer
+    req:10 IBMPC
+    cost:250 Money
+    icon:https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Compaq_Deskpro_386_16Mhz_edit.jpg/1280px-Compaq_Deskpro_386_16Mhz_edit.jpg
+    on tick:yield 2 Money
+Buttons
+  *MoneyButton
+    name:Money printer
+    desc:Your on an fbi watchlist
+    icon:https://atlas-content-cdn.pixelsquid.com/stock-images/stack-of-one-dollar-bills-bill-Av5N0KF-600.jpg
+    on click:yield 1 Money
+Layout
+  *computers
+    contains:Buildings
+    header:Computers
+  *resources
+    contains:Resources
+    header:Resources
+  *unlockables
+    contains:Upgrades, Achievements
+    names:hide
