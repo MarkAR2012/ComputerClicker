@@ -33,6 +33,7 @@ Layout
   *computers
     contains:Buildings
     header:Computers
+    icons:show
   *resources
     contains:Resources
     header:Resources
