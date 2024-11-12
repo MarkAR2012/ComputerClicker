@@ -1,8 +1,6 @@
 Let's make a game!
   name:Computer Clicker
   version:ALPHA1
-  building cost increase:125%
-  building cost refund:100%
 Resources
   *Money
     name:Money
@@ -41,3 +39,6 @@ Layout
   *unlockables
     contains:Upgrades, Achievements
     names:hide
+Settings
+  building cost increase:125%
+  building cost refund:100%
