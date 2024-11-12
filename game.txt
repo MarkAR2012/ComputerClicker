@@ -40,6 +40,8 @@ Layout
   *unlockables
     contains:Upgrades, Achievements
     names:hide
+  *clicker
+    contains:Buttons
 Settings
   building cost increase:125%
   building cost refund:100%
