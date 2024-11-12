@@ -43,6 +43,7 @@ Layout
   *clicker
     contains:Buttons
     class:bigButton
+    names:hide
 Settings
   building cost increase:125%
   building cost refund:100%
