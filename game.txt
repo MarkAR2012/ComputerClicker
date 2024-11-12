@@ -8,7 +8,7 @@ Resources
   *Bitcoin
     name:Bitcoin
     desc:Crypto
-    req:1000 Money
+    req:1000000 Money
 Buildings
   *IBMPC
     name:IBM PC
@@ -23,6 +23,20 @@ Buildings
     cost:250 Money
     icon:https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Compaq_Deskpro_386_16Mhz_edit.jpg/1280px-Compaq_Deskpro_386_16Mhz_edit.jpg
     on tick:yield 2 Money
+Achievements
+  *StartingOff
+    name:Starting Off
+    desc:Print your first bit of money
+    req:1 Money
+  *SchoolComputer
+    name:School Computer
+    desc:Get a school computer
+    req:1 IBMPC
+Upgrades
+  *FirstRAMUpgrade
+    name:First RAM Upgrade
+    desc:Make each IBM PC make 10% more money
+    passive:multiply yield of IBMPC by 1.10
 Buttons
   *MoneyButton
     name:Money printer
