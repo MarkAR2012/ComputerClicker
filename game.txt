@@ -56,10 +56,11 @@ Layout
       *buttons
          contains:Buttons
       *store
-	contains:computers, upgrades
+	contains:computers
         header:Store
 	*computers
 	  contains:Buildings
+          contains:upgrades
 	  tooltip origin:left
           header:Computers
 	*upgrades
