@@ -44,25 +44,25 @@ Buttons
     icon:https://atlas-content-cdn.pixelsquid.com/stock-images/stack-of-one-dollar-bills-bill-Av5N0KF-600.jpg
     on click:yield 1 Money
 Layout
-	*main
-	    contains:res, buttons, BulkDisplay
-		*res
-			icons:show
-			contains:Resources
-			class:fullWidth
-			tooltip origin:bottom
-		*buttons
-			contains:Buttons
+    *main
+      contains:res, buttons, BulkDisplay
+	*res
+	  icons:show
+	  contains:Resources
+	  class:fullWidth
+	  tooltip origin:bottom
+ 	*buttons
+	  contains:Buttons
 	*store
-	    contains:computers, upgrades
-		*computers
-			contains:Buildings
-			tooltip origin:left
-		*upgrades
-			tooltip origin:left
-			contains:tag:sortup
-			contains:Upgrades
-			contains:tag:upgrades
+	  contains:computers, upgrades
+	  *computers
+	    contains:Buildings
+	    tooltip origin:left
+	  *upgrades
+	    tooltip origin:left
+	    contains:tag:sortup
+	    contains:Upgrades
+	    contains:tag:upgrades
 Settings
   building cost increase:125%
   building cost refund:100%
