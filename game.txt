@@ -63,12 +63,14 @@ Layout
           contains:upgrades
 	  tooltip origin:left
           header:Computers
+          class:fullWidth
 	*upgrades
 	  tooltip origin:left
 	  contains:tag:sortup
 	  contains:Upgrades
 	  contains:tag:upgrades
           header:Upgrades
+          class:fullWidth
 Settings
   building cost increase:125%
   building cost refund:100%
