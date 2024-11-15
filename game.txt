@@ -4,7 +4,7 @@ Let's make a game!
 Resources
   *Money
     name:Money
-    desc:Money, what do you except?
+    desc:Main currency
   *Bitcoin
     name:Bitcoin
     desc:Crypto
@@ -48,13 +48,13 @@ Buttons
 Layout
     *main
       contains:res, buttons, BulkDisplay
-      *buttons
-         contains:Buttons
       *res
         icons:show
 	contains:Resources
 	class:fullWidth
 	tooltip origin:bottom
+      *buttons
+         contains:Buttons
       *store
 	contains:computers, upgrades
 	*computers
