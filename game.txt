@@ -57,14 +57,17 @@ Layout
          contains:Buttons
       *store
 	contains:computers, upgrades
+        header:Store
 	*computers
 	  contains:Buildings
 	  tooltip origin:left
+          header:Computers
 	*upgrades
 	  tooltip origin:left
 	  contains:tag:sortup
 	  contains:Upgrades
 	  contains:tag:upgrades
+          header:Upgrades
 Settings
   building cost increase:125%
   building cost refund:100%
