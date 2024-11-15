@@ -36,6 +36,8 @@ Upgrades
   *FirstRAMUpgrade
     name:First RAM Upgrade
     desc:Make each IBM PC make 10% more money
+    req:5 IBMPC
+    cost:100 Money
     passive:multiply yield of IBMPC by 1.10
 Buttons
   *MoneyButton
