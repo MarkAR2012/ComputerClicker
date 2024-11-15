@@ -38,6 +38,7 @@ Upgrades
     desc:Make each IBM PC make 10% more money
     req:5 IBMPC
     cost:100 Money
+    icon:https://i.ebayimg.com/images/g/oPcAAOSwyOdkVATL/s-l1200.jpg
     passive:multiply yield of IBMPC by 1.10
 Buttons
   *MoneyButton
