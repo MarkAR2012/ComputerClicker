@@ -56,7 +56,7 @@ Layout
       *buttons
          contains:Buttons
       *store
-	contains:computers, computersHeader upgrades, upgradesHeader
+	contains:computers, computersHeader, upgrades, upgradesHeader
         header:Store
 	*computers
 	  contains:Buildings
