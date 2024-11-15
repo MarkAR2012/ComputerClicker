@@ -45,6 +45,7 @@ Buttons
     desc:Your on an fbi watchlist
     icon:https://atlas-content-cdn.pixelsquid.com/stock-images/stack-of-one-dollar-bills-bill-Av5N0KF-600.jpg
     on click:yield 1 Money
+    class:noBackground
 Layout
     *main
       contains:res, buttons, BulkDisplay
