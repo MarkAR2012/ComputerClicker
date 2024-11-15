@@ -1,6 +1,6 @@
 Let's make a game!
   name:Computer Clicker
-  version:ALPHA1
+  version:0.23
 Resources
   *Money
     name:Money
